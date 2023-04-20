@@ -1,1 +1,3 @@
-{"constants": {}, "defaults": {}, "pipeline_name": "demo_workflow", "steps": [], "input_aliases": {}, "output_aliases": {}, "doc": {"description": "do some things", "doc": null}, "context": {"authors": [""]}}
+# Kiara workflow test
+
+Repository for testing the streamlit app writing Kiara workflows to a github repository
