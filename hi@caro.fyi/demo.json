@@ -1,1 +1,1 @@
-{"constants":{},"defaults":{},"pipeline_name":"demo","steps":[],"input_aliases":{},"output_aliases":{},"doc":{"description":"A demo workflow for testing with an updated description with more words and things","doc":null},"context":{"authors":["hi@caro.fyi"]}}
+{"constants":{},"defaults":{},"pipeline_name":"demo","steps":[],"input_aliases":{},"output_aliases":{},"doc":{"description":"A demo workflow for testing with an updated description with more words and things updated from other repo","doc":null},"context":{"authors":["hi@caro.fyi"]}}
