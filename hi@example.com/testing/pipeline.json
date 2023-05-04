@@ -1,1 +1,226 @@
-{"constants":{},"defaults":{},"pipeline_name":"testing","steps":[],"input_aliases":{},"output_aliases":{},"doc":{"description":"A thing","doc":"ResearchQuestions: questions"},"context":{"authors":["hi@example.com"]}}
+{
+  "constants": {},
+  "defaults": {},
+  "pipeline_name": "testing",
+  "steps": [
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "write_data_into_a_form",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "typing from my brain"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a streamlit page with some data"
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "write_data_into_a_form",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "write_data_into_a_form",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "typing from my brain"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a streamlit page with some data"
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "typing from my brain"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a streamlit page with some data"
+            }
+          },
+          "title": "write_data_into_a_form",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "typing from my brain",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a streamlit page with some data",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    },
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "write_the_data_to_github",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "that form, the name of a github repo"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a file in github"
+          }
+        },
+        "desc": "use the pygithub module"
+      },
+      "is_resolved": false,
+      "step_id": "write_the_data_to_github",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "write_the_data_to_github",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "that form, the name of a github repo"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a file in github"
+            }
+          },
+          "desc": "use the pygithub module"
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "that form, the name of a github repo"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a file in github"
+            }
+          },
+          "title": "write_the_data_to_github",
+          "desc": "use the pygithub module"
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "that form, the name of a github repo",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a file in github",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    }
+  ],
+  "input_aliases": {
+    "write_data_into_a_form.default": "write_data_into_a_form__default",
+    "write_the_data_to_github.default": "write_the_data_to_github__default"
+  },
+  "output_aliases": {
+    "write_data_into_a_form.default": "write_data_into_a_form__default",
+    "write_the_data_to_github.default": "write_the_data_to_github__default"
+  },
+  "doc": {
+    "description": "A thing",
+    "doc": "ResearchQuestions:  questions"
+  },
+  "context": {
+    "authors": [
+      "hi@example.com"
+    ]
+  }
+}
