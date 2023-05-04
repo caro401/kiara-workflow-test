@@ -1,0 +1,17 @@
+{
+  "constants": {},
+  "defaults": {},
+  "pipeline_name": "demo",
+  "steps": [],
+  "input_aliases": {},
+  "output_aliases": {},
+  "doc": {
+    "description": "",
+    "doc": "ResearchQuestions:"
+  },
+  "context": {
+    "authors": [
+      "hi@example.com"
+    ]
+  }
+}
