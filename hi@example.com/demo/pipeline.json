@@ -2,9 +2,115 @@
   "constants": {},
   "defaults": {},
   "pipeline_name": "demo",
-  "steps": [],
-  "input_aliases": {},
-  "output_aliases": {},
+  "steps": [
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "remove_stopwords_from_text",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a text file"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a text file with fewer words"
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "remove_stopwords_from_text",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "remove_stopwords_from_text",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a text file"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a text file with fewer words"
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a text file"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a text file with fewer words"
+            }
+          },
+          "title": "remove_stopwords_from_text",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a text file",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a text file with fewer words",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    }
+  ],
+  "input_aliases": {
+    "remove_stopwords_from_text.default": "remove_stopwords_from_text__default"
+  },
+  "output_aliases": {
+    "remove_stopwords_from_text.default": "remove_stopwords_from_text__default"
+  },
   "doc": {
     "description": "",
     "doc": "ResearchQuestions:"
