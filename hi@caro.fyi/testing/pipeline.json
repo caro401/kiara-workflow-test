@@ -223,7 +223,7 @@
             "doc": ""
           }
         },
-        "desc": ""
+        "desc": "does this still work?"
       },
       "is_resolved": false,
       "step_id": "another_thing",
@@ -245,7 +245,7 @@
               "doc": ""
             }
           },
-          "desc": ""
+          "desc": "does this still work?"
         },
         "is_resolved": false
       },
@@ -272,7 +272,7 @@
             }
           },
           "title": "another_thing",
-          "desc": ""
+          "desc": "does this still work?"
         },
         "inputs_schema": {
           "default": {
