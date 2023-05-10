@@ -1,0 +1,123 @@
+{
+  "constants": {},
+  "defaults": {},
+  "pipeline_name": "test",
+  "steps": [
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "a_step",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "some files"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "a_step",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "a_step",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "some files"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "some files"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "title": "a_step",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "some files",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "-- n/a --",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    }
+  ],
+  "input_aliases": {
+    "a_step.default": "a_step__default"
+  },
+  "output_aliases": {
+    "a_step.default": "a_step__default"
+  },
+  "doc": {
+    "description": "testing the file upload function",
+    "doc": "## Research Questions\nhow do i use git lfs"
+  },
+  "context": {
+    "authors": [
+      "hi@caro.fyi"
+    ]
+  }
+}
