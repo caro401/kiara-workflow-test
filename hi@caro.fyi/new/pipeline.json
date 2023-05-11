@@ -1,0 +1,329 @@
+{
+  "constants": {},
+  "defaults": {},
+  "pipeline_name": "new",
+  "steps": [
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "load_data_from_csv_file",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a csv file that i found on the internet"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a pandas dataframe of my data"
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "load_data_from_csv_file",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "load_data_from_csv_file",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a csv file that i found on the internet"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a pandas dataframe of my data"
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a csv file that i found on the internet"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a pandas dataframe of my data"
+            }
+          },
+          "title": "load_data_from_csv_file",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a csv file that i found on the internet",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a pandas dataframe of my data",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    },
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "draw_a_graph",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "the data frame from before"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "a picture"
+          }
+        },
+        "desc": "that xkcd plotting library and pandas"
+      },
+      "is_resolved": false,
+      "step_id": "draw_a_graph",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "draw_a_graph",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "the data frame from before"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a picture"
+            }
+          },
+          "desc": "that xkcd plotting library and pandas"
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "the data frame from before"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "a picture"
+            }
+          },
+          "title": "draw_a_graph",
+          "desc": "that xkcd plotting library and pandas"
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "the data frame from before",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "a picture",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    },
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "another_thing",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "desc": "does this still work?"
+      },
+      "is_resolved": false,
+      "step_id": "another_thing",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "another_thing",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "desc": "does this still work?"
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "title": "another_thing",
+          "desc": "does this still work?"
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "-- n/a --",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "-- n/a --",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    }
+  ],
+  "input_aliases": {
+    "load_data_from_csv_file.default": "load_data_from_csv_file__default",
+    "draw_a_graph.default": "draw_a_graph__default",
+    "another_thing.default": "another_thing__default"
+  },
+  "output_aliases": {
+    "load_data_from_csv_file.default": "load_data_from_csv_file__default",
+    "draw_a_graph.default": "draw_a_graph__default",
+    "another_thing.default": "another_thing__default"
+  },
+  "doc": {
+    "description": "Some things",
+    "doc": "## Research Questions\nquestions"
+  },
+  "context": {
+    "authors": [
+      "hi@caro.fyi"
+    ]
+  }
+}
