@@ -305,17 +305,120 @@
         "description": "-- n/a --",
         "doc": null
       }
+    },
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "another_step",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": "i dont remember"
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "another_step",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "another_step",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "i dont remember"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "i dont remember"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "title": "another_step",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "i dont remember",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "-- n/a --",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
     }
   ],
   "input_aliases": {
     "load_data_from_csv_file.default": "load_data_from_csv_file__default",
     "draw_a_graph.default": "draw_a_graph__default",
-    "another_thing.default": "another_thing__default"
+    "another_thing.default": "another_thing__default",
+    "another_step.default": "another_step__default"
   },
   "output_aliases": {
     "load_data_from_csv_file.default": "load_data_from_csv_file__default",
     "draw_a_graph.default": "draw_a_graph__default",
-    "another_thing.default": "another_thing__default"
+    "another_thing.default": "another_thing__default",
+    "another_step.default": "another_step__default"
   },
   "doc": {
     "description": "this is a demo workflow for testing purposes",
