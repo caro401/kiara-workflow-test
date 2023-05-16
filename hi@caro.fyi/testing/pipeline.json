@@ -112,7 +112,7 @@
           "default": {
             "type": "any",
             "optional": "true",
-            "doc": "the data frame from before"
+            "doc": "the data frame from before, but with less columns"
           }
         },
         "outputs_schema": {
@@ -134,7 +134,7 @@
             "default": {
               "type": "any",
               "optional": "true",
-              "doc": "the data frame from before"
+              "doc": "the data frame from before, but with less columns"
             }
           },
           "outputs_schema": {
@@ -160,7 +160,7 @@
             "default": {
               "type": "any",
               "optional": "true",
-              "doc": "the data frame from before"
+              "doc": "the data frame from before, but with less columns"
             }
           },
           "outputs_schema": {
@@ -181,7 +181,7 @@
             "optional": true,
             "is_constant": false,
             "doc": {
-              "description": "the data frame from before",
+              "description": "the data frame from before, but with less columns",
               "doc": null
             }
           }
@@ -323,7 +323,7 @@
   },
   "context": {
     "authors": [
-      "hi@caro.fyi - contact consent given: True"
+      "hi@caro.fyi"
     ]
   }
 }
