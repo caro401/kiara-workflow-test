@@ -11,7 +11,7 @@
           "default": {
             "type": "any",
             "optional": "true",
-            "doc": ""
+            "doc": "nothing"
           }
         },
         "outputs_schema": {
@@ -29,6 +29,107 @@
         "module_type": "dummy",
         "module_config": {
           "title": "things",
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "nothing"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "desc": ""
+        },
+        "is_resolved": false
+      },
+      "input_links": {},
+      "module_details": {
+        "python_class_name": "Dummymodule",
+        "python_module_name": "kiara_plugin.streamlit.modules",
+        "full_name": "kiara_plugin.streamlit.modules.Dummymodule",
+        "module_config": {
+          "constants": {},
+          "defaults": {},
+          "inputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": "nothing"
+            }
+          },
+          "outputs_schema": {
+            "default": {
+              "type": "any",
+              "optional": "true",
+              "doc": ""
+            }
+          },
+          "title": "things",
+          "desc": ""
+        },
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "nothing",
+              "doc": null
+            }
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "type_config": {},
+            "default": "__not_set__",
+            "optional": true,
+            "is_constant": false,
+            "doc": {
+              "description": "-- n/a --",
+              "doc": null
+            }
+          }
+        }
+      },
+      "doc": {
+        "description": "-- n/a --",
+        "doc": null
+      }
+    },
+    {
+      "module_type": "dummy",
+      "module_config": {
+        "title": "more_stuff",
+        "inputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "outputs_schema": {
+          "default": {
+            "type": "any",
+            "optional": "true",
+            "doc": ""
+          }
+        },
+        "desc": ""
+      },
+      "is_resolved": false,
+      "step_id": "more_stuff",
+      "manifest_src": {
+        "module_type": "dummy",
+        "module_config": {
+          "title": "more_stuff",
           "inputs_schema": {
             "default": {
               "type": "any",
@@ -69,7 +170,7 @@
               "doc": ""
             }
           },
-          "title": "things",
+          "title": "more_stuff",
           "desc": ""
         },
         "inputs_schema": {
@@ -106,10 +207,12 @@
     }
   ],
   "input_aliases": {
-    "things.default": "things__default"
+    "things.default": "things__default",
+    "more_stuff.default": "more_stuff__default"
   },
   "output_aliases": {
-    "things.default": "things__default"
+    "things.default": "things__default",
+    "more_stuff.default": "more_stuff__default"
   },
   "doc": {
     "description": "",
